@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+// Update to the latest Solidity version
+pragma solidity ^0.8.27;
 
 contract ParimutuelBetting {
     
