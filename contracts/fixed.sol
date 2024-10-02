@@ -38,7 +38,6 @@ contract ParimutuelBetting {
     bool private locked;
 
     uint256 public constant MAX_OPTIONS = 10; // Maximum number of options per prediction
-    uint256 public constant TIME_BUFFER = 1 hours; // Time buffer for predictions
 
     /// @notice Event emitted when a new admin is added.
     event AdminAdded(address indexed newAdmin);
