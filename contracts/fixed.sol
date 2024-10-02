@@ -178,11 +178,10 @@ contract ParimutuelBetting {
         string memory _winner
     ) internal {
         Prediction storage prediction = predictions[_predictionId];
+        // Fix duplicates
         uint256 totalPool = prediction.totalBets[_winner];
 
         require(totalPool > 0, "No bets placed on winning option");
-
-        uint256 totalCorrectBets = prediction.totalBets[_winner];
 
         for (uint256 i = 0; i < prediction.participants.length; i++) {
             address participant = prediction.participants[i];
@@ -190,12 +189,12 @@ contract ParimutuelBetting {
             if (userBet > 0) {
                 // Prevent reentrancy attacks
                 (bool success, ) = participant.call{
-                    value: (userBet * address(this).balance) / totalCorrectBets
+                    value: (userBet * address(this).balance) / totalPool
                 }("");
                 require(success, "Payout failed");
                 emit Payout(
                     participant,
-                    (userBet * address(this).balance) / totalCorrectBets
+                    (userBet * address(this).balance) / totalPool
                 );
             }
         }
