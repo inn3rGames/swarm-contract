@@ -186,22 +186,20 @@ contract ParimutuelBetting {
         for (uint256 i = 0; i < prediction.participants.length; i++) {
             address participant = prediction.participants[i];
             uint256 userBet = prediction.bets[participant][_winner];
-            if (userBet > 0) {
-                // Prevent reentrancy attacks
-                (bool success, ) = participant.call{
-                    value: (userBet * address(this).balance) / totalPool
-                }("");
-                require(success, "Payout failed");
-                emit Payout(
-                    participant,
-                    (userBet * address(this).balance) / totalPool
-                );
-            }
+
+            // Prevent reentrancy attacks
+            prediction.bets[participant][_winner] = 0;
+
+            uint256 payout = (userBet * address(this).balance) / totalPool;
+            require(payout > 0, "Payout is zero");
+
+            payable(participant).transfer(payout);
+            emit Payout(participant, payout);
         }
     }
 
+    // Prevent gas limit issues by using call instead of transfer
     function withdrawBalance() external onlyOwner {
-        // Prevent gas limit issues by using call instead of transfer
         (bool success, ) = owner.call{value: address(this).balance}("");
         require(success, "Withdraw failed");
     }
