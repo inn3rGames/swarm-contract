@@ -137,9 +137,10 @@ contract ParimutuelBetting {
             address participant = prediction.participants[i];
             uint256 userBet = prediction.bets[participant][_winner];
             if (userBet > 0) {
-                uint256 payout = (userBet * address(this).balance) / totalCorrectBets;
-                payable(participant).transfer(payout);
-                emit Payout(participant, payout);
+                // Prevent reentrancy attacks
+                (bool success, ) = participant.call{value: (userBet * address(this).balance) / totalCorrectBets}("");
+                require(success, "Payout failed");
+                emit Payout(participant, (userBet * address(this).balance) / totalCorrectBets);
             }
         }
     }
