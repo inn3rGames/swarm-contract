@@ -147,7 +147,9 @@ contract ParimutuelBetting {
 
 
     function withdrawBalance() external onlyOwner {
-        payable(owner).transfer(address(this).balance);
+        // Prevent gas limit issues by using call instead of transfer
+        (bool success, ) = owner.call{value: address(this).balance}("");
+        require(success, "Withdraw failed");
     }
 
 
