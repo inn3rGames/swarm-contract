@@ -200,13 +200,18 @@ contract ParimutuelBetting {
 
     // Prevent gas limit issues by using call instead of transfer
     function withdrawBalance() external onlyOwner {
+        uint256 balance = address(this).balance;
+        require(balance > 0, "No balance to withdraw");
+
         (bool success, ) = owner.call{value: address(this).balance}("");
         require(success, "Withdraw failed");
     }
 
-    // Prevent 0 admin address
+    // Prevent 0 admin address and duplicate admins
     function addAdmin(address _newAdmin) external onlyOwner {
         require(_newAdmin != address(0), "New admin address cannot be zero");
+        require(!admins[_newAdmin], "Address is already an admin");
+
         admins[_newAdmin] = true;
         emit AdminAdded(_newAdmin);
     }
