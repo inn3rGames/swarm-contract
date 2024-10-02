@@ -22,6 +22,7 @@ contract ParimutuelBetting {
     address public immutable owner;
     uint256 public predictionCounter;
     mapping(uint256 => Prediction) public predictions;
+    mapping(uint256 => bool) public predictionExistsMap;
     mapping(address => bool) public admins;
     bool private paused;
     bool private locked;
@@ -91,10 +92,7 @@ contract ParimutuelBetting {
     }
 
     modifier predictionExists(uint256 predictionId) {
-        require(
-            predictions[predictionId].id == predictionId,
-            "Prediction does not exist"
-        );
+        require(predictionExistsMap[predictionId], "Prediction does not exist");
         _;
     }
 
@@ -137,6 +135,8 @@ contract ParimutuelBetting {
             newPrediction.options[options[i]] = true;
             newPrediction.optionList.push(options[i]);
         }
+
+        predictionExistsMap[predictionCounter] = true; // Update prediction map
 
         emit PredictionCreated(
             predictionCounter,
@@ -236,10 +236,9 @@ contract ParimutuelBetting {
 
         prediction.bets[msg.sender][prediction.winner] = 0;
 
-        (bool success, ) = msg.sender.call{value: payout}("");
-        require(success, "Transfer failed");
-
         emit PayoutClaimed(msg.sender, predictionId, payout);
+
+        payable(msg.sender).transfer(payout);
     }
 
     function addAdmin(address newAdmin) external onlyOwner {
@@ -276,8 +275,6 @@ contract ParimutuelBetting {
     function withdrawBalance() external onlyOwner {
         uint256 balance = address(this).balance;
         require(balance > 0, "No balance to withdraw");
-
-        (bool success, ) = payable(owner).call{value: balance}("");
-        require(success, "Withdraw failed");
+        payable(owner).transfer(balance);
     }
 }
