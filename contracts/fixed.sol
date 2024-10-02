@@ -152,14 +152,16 @@ contract ParimutuelBetting {
         require(success, "Withdraw failed");
     }
 
-
+// Prevent 0 admin address
     function addAdmin(address _newAdmin) external onlyOwner {
+        require(_newAdmin != address(0), "New admin address cannot be zero");
         admins[_newAdmin] = true;
         emit AdminAdded(_newAdmin);
     }
 
-
+// Prevent 0 admin address
     function removeAdmin(address _admin) external onlyOwner {
+        require(_admin != address(0), "Admin address cannot be zero");
         admins[_admin] = false;
         emit AdminRemoved(_admin);
     }
