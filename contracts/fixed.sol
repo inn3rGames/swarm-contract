@@ -18,7 +18,8 @@ contract ParimutuelBetting {
         address[] participants;
     }
     
-    address public owner;
+    // Fix mutable owner
+    address public immutable owner;
     uint256 public predictionCounter;
     mapping(uint256 => Prediction) public predictions;
     mapping(address => bool) public admins;
