@@ -8,7 +8,8 @@ contract ParimutuelBetting {
         uint256 id;
         string title;
         string description;
-        string[] options;
+        mapping(string => bool) options;
+        string[] optionList;
         uint256 endBidTime;
         bool isActive;
         string winner;
@@ -22,39 +23,11 @@ contract ParimutuelBetting {
     uint256 public predictionCounter;
     mapping(uint256 => Prediction) public predictions;
     mapping(address => bool) public admins;
+    bool private paused;
+    bool private locked;
 
-    constructor() {
-        owner = msg.sender;
-        admins[owner] = true;
-    }
-
-    modifier onlyAdmin() {
-        require(admins[msg.sender], "Only admin can perform this action");
-        _;
-    }
-
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Only owner can perform this action");
-        _;
-    }
-
-    modifier predictionExists(uint256 _id) {
-        require(predictions[_id].id == _id, "Prediction does not exist");
-        _;
-    }
-
-    modifier predictionActive(uint256 _id) {
-        require(predictions[_id].isActive, "Prediction is not active");
-        _;
-    }
-
-    modifier predictionEnded(uint256 _id) {
-        require(
-            block.timestamp > predictions[_id].endBidTime,
-            "Prediction has not ended yet"
-        );
-        _;
-    }
+    uint256 public constant MAX_OPTIONS = 10;
+    uint256 public constant TIME_BUFFER = 1 hours;
 
     event AdminAdded(address indexed newAdmin);
     event AdminRemoved(address indexed removedAdmin);
@@ -72,154 +45,239 @@ contract ParimutuelBetting {
         uint256 amount
     );
     event PredictionEnded(uint256 id, string winner);
-    event Payout(address indexed user, uint256 amount);
+    event PayoutAvailable(
+        address indexed user,
+        uint256 predictionId,
+        uint256 amount
+    );
+    event PayoutClaimed(
+        address indexed user,
+        uint256 predictionId,
+        uint256 amount
+    );
+    event Paused(address account);
+    event Unpaused(address account);
+
+    constructor() {
+        owner = msg.sender;
+        admins[owner] = true;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner can perform this action");
+        _;
+    }
+
+    modifier onlyAdmin() {
+        require(admins[msg.sender], "Only admin can perform this action");
+        _;
+    }
+
+    modifier whenNotPaused() {
+        require(!paused, "Contract is paused");
+        _;
+    }
+
+    modifier whenPaused() {
+        require(paused, "Contract is not paused");
+        _;
+    }
+
+    modifier nonReentrant() {
+        require(!locked, "Reentrant call");
+        locked = true;
+        _;
+        locked = false;
+    }
+
+    modifier predictionExists(uint256 predictionId) {
+        require(
+            predictions[predictionId].id == predictionId,
+            "Prediction does not exist"
+        );
+        _;
+    }
+
+    modifier predictionActive(uint256 predictionId) {
+        require(predictions[predictionId].isActive, "Prediction is not active");
+        _;
+    }
+
+    modifier predictionEnded(uint256 predictionId) {
+        require(
+            block.number > predictions[predictionId].endBidTime,
+            "Prediction has not ended yet"
+        );
+        _;
+    }
 
     function createPrediction(
-        string memory _title,
-        string memory _description,
-        string[] memory _options,
-        uint256 _endBidTime
-    ) external onlyAdmin {
+        string memory title,
+        string memory description,
+        string[] memory options,
+        uint256 durationInBlocks
+    ) external onlyAdmin whenNotPaused {
+        require(durationInBlocks > 0, "Duration must be greater than zero");
         require(
-            _endBidTime > block.timestamp,
-            "End bid time must be in the future"
+            options.length > 1 && options.length <= MAX_OPTIONS,
+            "Invalid number of options"
         );
+
+        uint256 endBidBlock = block.number + durationInBlocks;
 
         Prediction storage newPrediction = predictions[predictionCounter];
         newPrediction.id = predictionCounter;
-        newPrediction.title = _title;
-        newPrediction.description = _description;
-        newPrediction.options = _options;
-        newPrediction.endBidTime = _endBidTime;
+        newPrediction.title = title;
+        newPrediction.description = description;
+        newPrediction.endBidTime = endBidBlock;
         newPrediction.isActive = true;
+
+        for (uint256 i = 0; i < options.length; i++) {
+            require(!newPrediction.options[options[i]], "Duplicate option");
+            newPrediction.options[options[i]] = true;
+            newPrediction.optionList.push(options[i]);
+        }
 
         emit PredictionCreated(
             predictionCounter,
-            _title,
-            _description,
-            _options,
-            _endBidTime
+            title,
+            description,
+            options,
+            endBidBlock
         );
         predictionCounter++;
     }
 
     function placeBet(
-        uint256 _predictionId,
-        string memory _option
+        uint256 predictionId,
+        string memory option
     )
         external
         payable
-        predictionExists(_predictionId)
-        predictionActive(_predictionId)
+        nonReentrant
+        whenNotPaused
+        predictionExists(predictionId)
+        predictionActive(predictionId)
     {
         require(msg.value > 0, "Bet amount must be greater than zero");
         require(
-            block.timestamp <= predictions[_predictionId].endBidTime,
+            block.number <= predictions[predictionId].endBidTime,
             "Cannot place bet after bidding time has ended"
         );
 
-        Prediction storage prediction = predictions[_predictionId];
-        bool validOption = false;
-        for (uint256 i = 0; i < prediction.options.length; i++) {
-            if (
-                keccak256(abi.encodePacked(prediction.options[i])) ==
-                keccak256(abi.encodePacked(_option))
-            ) {
-                validOption = true;
-                break;
-            }
-        }
-        require(validOption, "Invalid betting option");
+        Prediction storage prediction = predictions[predictionId];
+        require(prediction.options[option], "Invalid betting option");
 
-        if (prediction.bets[msg.sender][_option] == 0) {
+        if (prediction.bets[msg.sender][option] == 0) {
             prediction.participants.push(msg.sender);
         }
 
-        prediction.bets[msg.sender][_option] += msg.value;
-        prediction.totalBets[_option] += msg.value;
+        prediction.bets[msg.sender][option] += msg.value;
+        prediction.totalBets[option] += msg.value;
 
-        emit BetPlaced(msg.sender, _predictionId, _option, msg.value);
+        emit BetPlaced(msg.sender, predictionId, option, msg.value);
     }
 
     function endPrediction(
-        uint256 _predictionId,
-        string memory _winner
+        uint256 predictionId,
+        string memory winner
     )
         external
         onlyAdmin
-        predictionExists(_predictionId)
-        predictionEnded(_predictionId)
+        predictionExists(predictionId)
+        predictionEnded(predictionId)
     {
-        Prediction storage prediction = predictions[_predictionId];
+        Prediction storage prediction = predictions[predictionId];
         require(prediction.isActive, "Prediction already ended");
-
-        bool validOption = false;
-        for (uint256 i = 0; i < prediction.options.length; i++) {
-            if (
-                keccak256(abi.encodePacked(prediction.options[i])) ==
-                keccak256(abi.encodePacked(_winner))
-            ) {
-                validOption = true;
-                break;
-            }
-        }
-        require(validOption, "Invalid winning option");
+        require(prediction.options[winner], "Invalid winning option");
 
         prediction.isActive = false;
-        prediction.winner = _winner;
+        prediction.winner = winner;
 
-        emit PredictionEnded(_predictionId, _winner);
+        emit PredictionEnded(predictionId, winner);
 
-        _distributeWinnings(_predictionId, _winner);
+        _calculatePayouts(predictionId, winner);
     }
 
-    function _distributeWinnings(
-        uint256 _predictionId,
-        string memory _winner
+    function _calculatePayouts(
+        uint256 predictionId,
+        string memory winner
     ) internal {
-        Prediction storage prediction = predictions[_predictionId];
-        // Fix duplicates
-        uint256 totalPool = prediction.totalBets[_winner];
+        Prediction storage prediction = predictions[predictionId];
+        uint256 totalPool = prediction.totalBets[winner];
 
         require(totalPool > 0, "No bets placed on winning option");
 
         for (uint256 i = 0; i < prediction.participants.length; i++) {
             address participant = prediction.participants[i];
-            uint256 userBet = prediction.bets[participant][_winner];
+            uint256 userBet = prediction.bets[participant][winner];
 
-            // Prevent reentrancy attacks
-            prediction.bets[participant][_winner] = 0;
-
-            uint256 payout = (userBet * address(this).balance) / totalPool;
-            require(payout > 0, "Payout is zero");
-
-            payable(participant).transfer(payout);
-            emit Payout(participant, payout);
+            if (userBet > 0) {
+                uint256 payout = (userBet * address(this).balance) / totalPool;
+                if (payout > 0) {
+                    emit PayoutAvailable(participant, predictionId, payout);
+                }
+            }
         }
     }
 
-    // Prevent gas limit issues by using call instead of transfer
+    function claimPayout(
+        uint256 predictionId
+    ) external nonReentrant whenNotPaused {
+        Prediction storage prediction = predictions[predictionId];
+        require(!prediction.isActive, "Prediction is still active");
+
+        uint256 userBet = prediction.bets[msg.sender][prediction.winner];
+        require(userBet > 0, "No winning bet to claim");
+
+        uint256 totalPool = prediction.totalBets[prediction.winner];
+        uint256 payout = (userBet * address(this).balance) / totalPool;
+        require(payout > 0, "No payout available");
+
+        prediction.bets[msg.sender][prediction.winner] = 0;
+
+        (bool success, ) = msg.sender.call{value: payout}("");
+        require(success, "Transfer failed");
+
+        emit PayoutClaimed(msg.sender, predictionId, payout);
+    }
+
+    function addAdmin(address newAdmin) external onlyOwner {
+        require(newAdmin != address(0), "New admin address cannot be zero");
+        require(!admins[newAdmin], "Address is already an admin");
+
+        admins[newAdmin] = true;
+        emit AdminAdded(newAdmin);
+    }
+
+    function removeAdmin(address admin) external onlyOwner {
+        require(admin != address(0), "Admin address cannot be zero");
+        require(admin != owner, "Cannot remove owner as admin");
+        admins[admin] = false;
+        emit AdminRemoved(admin);
+    }
+
+    function pause() external onlyOwner whenNotPaused {
+        paused = true;
+        emit Paused(msg.sender);
+    }
+
+    function unpause() external onlyOwner whenPaused {
+        paused = false;
+        emit Unpaused(msg.sender);
+    }
+
+    function getOptions(
+        uint256 predictionId
+    ) external view returns (string[] memory) {
+        return predictions[predictionId].optionList;
+    }
+
     function withdrawBalance() external onlyOwner {
         uint256 balance = address(this).balance;
         require(balance > 0, "No balance to withdraw");
 
-        (bool success, ) = owner.call{value: address(this).balance}("");
+        (bool success, ) = payable(owner).call{value: balance}("");
         require(success, "Withdraw failed");
-    }
-
-    // Prevent 0 admin address and duplicate admins
-    function addAdmin(address _newAdmin) external onlyOwner {
-        require(_newAdmin != address(0), "New admin address cannot be zero");
-        require(!admins[_newAdmin], "Address is already an admin");
-
-        admins[_newAdmin] = true;
-        emit AdminAdded(_newAdmin);
-    }
-
-    // Prevent 0 admin address
-    function removeAdmin(address _admin) external onlyOwner {
-        require(_admin != address(0), "Admin address cannot be zero");
-        admins[_admin] = false;
-        emit AdminRemoved(_admin);
     }
 }
