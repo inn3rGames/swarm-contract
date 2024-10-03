@@ -1,0 +1,2055 @@
+.fragment _calculatePayouts_209fb8df_internal, {
+	.loc ParimutuelBetTON.sol, 207
+	OVER
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	.loc ParimutuelBetTON.sol, 208
+	DUP2
+	INDEX 8
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDU 128
+	}
+	IF
+	.loc ParimutuelBetTON.sol, 210
+	DUP
+	GTINT 0
+	THROWIFNOT 117
+	.loc ParimutuelBetTON.sol, 212
+	PUSHINT 0
+	PUSHCONT {
+		PUSH2 S0, S2
+		INDEX 10
+		FIRST
+		LESS
+	}
+	PUSHCONT {
+		.loc ParimutuelBetTON.sol, 213
+		PUSH2 S0, S2
+		INDEX 10
+		SECOND
+		PUSHINT 32
+		DICTUGET
+		THROWIFNOT 50
+		.loc ParimutuelBetTON.sol, 214
+		PUSH3 S4, S0, S3
+		INDEX 9
+		PUSHINT 267
+		DICTGET
+		NULLSWAPIFNOT
+		PUSHCONT {
+			PLDDICT
+		}
+		IF
+		PUSHPOW2 8
+		DICTUGET
+		ZEROSWAPIFNOT
+		PUSHCONT {
+			PLDU 128
+		}
+		IF
+		.loc ParimutuelBetTON.sol, 216
+		DUP
+		GTINT 0
+		PUSHCONT {
+			.loc ParimutuelBetTON.sol, 217
+			DUP
+			GETPARAM 7
+			FIRST
+			PUSH S5
+			MULDIV
+			UFITS 128
+			.loc ParimutuelBetTON.sol, 218
+			DUP
+			GTINT 0
+			PUSHCONT {
+				.loc ParimutuelBetTON.sol, 219
+				PUSH3 S0, S7, S2
+				PUSHSLICE xc0000000000000000000000001
+				NEWC
+				STSLICE
+				ROLLREV 3
+				NEWC
+				STSLICECONST x7a3f6c32
+				STSLICE
+				STU 256
+				STU 128
+				STBREFR
+				ENDC
+				PUSHINT 0
+				SENDRAWMSG
+				.loc ParimutuelBetTON.sol, 0
+			}
+			IF
+			.loc ParimutuelBetTON.sol, 0
+			DROP
+		}
+		IF
+		.loc ParimutuelBetTON.sol, 0
+		DROP2
+		.loc ParimutuelBetTON.sol, 212
+		INC
+		.loc ParimutuelBetTON.sol, 0
+	}
+	WHILE
+	BLKDROP 5
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment _safeTransfer_3ea1cd0c_internal, {
+	.loc ParimutuelBetTON.sol, 293
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 294
+	PUSHPOW2DEC 16
+	.loc ParimutuelBetTON.sol, 295
+	PUSHCONT {
+		OVER
+		GTINT 0
+	}
+	PUSHCONT {
+		.loc ParimutuelBetTON.sol, 296
+		DUP2
+		GREATER
+		PUSHCONT {
+			.loc ParimutuelBetTON.sol, 297
+			PUSH2 S0, S2
+			NEWC
+			STSLICECONST x42_
+			STSLICE
+			SWAP
+			STGRAMS
+			PUSHINT 107
+			STZEROES
+			ENDC
+			PUSHINT 0
+			SENDRAWMSG
+			.loc ParimutuelBetTON.sol, 298
+			DUP2
+			SUB
+			UFITS 128
+		}
+		PUSHCONT {
+			.loc ParimutuelBetTON.sol, 300
+			OVER
+			UFITS 16
+			PUSH S3
+			NEWC
+			STSLICECONST x42_
+			STSLICE
+			SWAP
+			STGRAMS
+			PUSHINT 107
+			STZEROES
+			ENDC
+			PUSHINT 0
+			SENDRAWMSG
+			.loc ParimutuelBetTON.sol, 301
+			PUSHINT 0
+		}
+		IFELSE
+		POP S2
+		.loc ParimutuelBetTON.sol, 0
+	}
+	WHILE
+	BLKDROP 3
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment addAdmin_70480275_internal, {
+	.loc ParimutuelBetTON.sol, 64
+	GETGLOB 9
+	GETGLOB 10
+	SDEQ
+	THROWIFNOT 101
+	.loc ParimutuelBetTON.sol, 248
+	DUP
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	SDEQ
+	THROWIF 121
+	.loc ParimutuelBetTON.sol, 249
+	DUP
+	GETGLOB 14
+	PUSHINT 267
+	DICTGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIF 122
+	.loc ParimutuelBetTON.sol, 251
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 253
+	DUP
+	GETGLOB 14
+	NEWC
+	STONE
+	ROTREV
+	PUSHINT 267
+	DICTSETB
+	SETGLOB 14
+	.loc ParimutuelBetTON.sol, 254
+	PUSHSLICE xc00000000000000000000000002f69b5d7
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment c4_to_c7, {
+	PUSHROOT
+	CTOS
+	LDU 256 ; pubkey c4
+	LDU 64 ; pubkey timestamp c4
+	LDU 1 ; ctor flag
+	LDMSGADDR
+	LDREF
+	ENDS
+	CTOS
+	LDU 256
+	LDDICT
+	LDDICT
+	LDDICT
+	LDI 1
+	LDI 1
+	ENDS
+	SETGLOB 16
+	SETGLOB 15
+	SETGLOB 14
+	SETGLOB 13
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	SETGLOB 6
+	SETGLOB 3
+	SETGLOB 2
+}
+
+.fragment c7_to_c4, {
+	GETGLOB 16
+	GETGLOB 15
+	GETGLOB 14
+	GETGLOB 13
+	GETGLOB 12
+	GETGLOB 11
+	GETGLOB 10
+	GETGLOB 3
+	GETGLOB 2
+	NEWC
+	STU 256
+	STU 64
+	STONE
+	STSLICE
+	ROLLREV 6
+	NEWC
+	STU 256
+	STDICT
+	STDICT
+	STDICT
+	STI 1
+	STI 1
+	STBREFR
+	ENDC
+	POPROOT
+}
+
+.fragment addAdmin, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 247
+	OVER
+	PUSHCONT {
+		LDREF
+		ENDS
+		CTOS
+	}
+	IF
+	LDMSGADDR
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline addAdmin_70480275_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment admins, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 14
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc00000000000000000000000008654703a
+		NEWC
+		STSLICE
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment claimPayout_8a69614e_internal, {
+	.loc ParimutuelBetTON.sol, 84
+	GETGLOB 16
+	THROWIF 105
+	.loc ParimutuelBetTON.sol, 85
+	TRUE
+	SETGLOB 16
+	.loc ParimutuelBetTON.sol, 74
+	GETGLOB 15
+	THROWIF 103
+	.loc ParimutuelBetTON.sol, 228
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 230
+	DUP
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	.loc ParimutuelBetTON.sol, 231
+	DUP
+	INDEX 6
+	THROWIF 118
+	.loc ParimutuelBetTON.sol, 233
+	DUP
+	INDEX 7
+	GETGLOB 9
+	PUSH S2
+	INDEX 9
+	PUSHINT 267
+	DICTGET
+	NULLSWAPIFNOT
+	PUSHCONT {
+		PLDDICT
+	}
+	IF
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDU 128
+	}
+	IF
+	.loc ParimutuelBetTON.sol, 234
+	DUP
+	GTINT 0
+	THROWIFNOT 119
+	.loc ParimutuelBetTON.sol, 236
+	OVER
+	INDEX 7
+	PUSH S2
+	INDEX 8
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDU 128
+	}
+	IF
+	.loc ParimutuelBetTON.sol, 237
+	SWAP
+	GETPARAM 7
+	FIRST
+	ROT
+	MULDIV
+	UFITS 128
+	.loc ParimutuelBetTON.sol, 238
+	DUP
+	GTINT 0
+	THROWIFNOT 120
+	.loc ParimutuelBetTON.sol, 240
+	PUSH2 S1, S1
+	INDEX 9
+	GETGLOB 9
+	XCPU2 S1, S1, S0
+	PUSHINT 267
+	DICTGET
+	NULLSWAPIFNOT
+	PUSHCONT {
+		PLDDICT
+	}
+	IF
+	ROLL 5
+	INDEX 7
+	SWAP
+	NEWC
+	PUSHPOW2 7
+	STZEROES
+	ROTREV
+	PUSHPOW2 8
+	DICTUSETB
+	NEWC
+	STDICT
+	ROTREV
+	PUSHINT 267
+	DICTSETB
+	SETINDEX 9
+	DROP
+	PUXC S0, S1
+	.loc ParimutuelBetTON.sol, 242
+	GETGLOB 9
+	PUSHSLICE xc0000000000000000000000001
+	NEWC
+	STSLICE
+	ROLLREV 3
+	NEWC
+	STSLICECONST x4b6fcc19
+	STSLICE
+	STU 256
+	STU 128
+	STBREFR
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 244
+	GETGLOB 9
+	SWAP
+	CALLREF {
+		.inline _safeTransfer_3ea1cd0c_internal
+	}
+	.loc ParimutuelBetTON.sol, 87
+	FALSE
+	SETGLOB 16
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment claimPayout, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 225
+	LDU 256
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline claimPayout_8a69614e_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment constructor, {
+	DROP
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 6
+	THROWIF 51
+	ENDS
+	.loc ParimutuelBetTON.sol, 58
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 59
+	GETGLOB 9
+	DUP
+	SETGLOB 10
+	.loc ParimutuelBetTON.sol, 60
+	GETGLOB 14
+	NEWC
+	STONE
+	ROTREV
+	PUSHINT 267
+	DICTSETB
+	SETGLOB 14
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment createPrediction_c92eb3b9_internal, {
+	.loc ParimutuelBetTON.sol, 69
+	GETGLOB 9
+	GETGLOB 14
+	PUSHINT 267
+	DICTGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIFNOT 102
+	.loc ParimutuelBetTON.sol, 74
+	GETGLOB 15
+	THROWIF 103
+	.loc ParimutuelBetTON.sol, 114
+	DUP
+	GTINT 0
+	THROWIFNOT 109
+	.loc ParimutuelBetTON.sol, 115
+	OVER
+	FIRST
+	GTINT 1
+	PUSH S2
+	FIRST
+	LESSINT 11
+	AND
+	THROWIFNOT 110
+	.loc ParimutuelBetTON.sol, 120
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 122
+	NOW
+	ADD
+	.loc ParimutuelBetTON.sol, 124
+	GETGLOB 11
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	.loc ParimutuelBetTON.sol, 125
+	GETGLOB 11
+	SETINDEX 0
+	.loc ParimutuelBetTON.sol, 126
+	PUSH S4
+	SETINDEX 1
+	.loc ParimutuelBetTON.sol, 127
+	PUSH S3
+	SETINDEX 2
+	.loc ParimutuelBetTON.sol, 128
+	OVER
+	SETINDEX 5
+	.loc ParimutuelBetTON.sol, 129
+	TRUE
+	SETINDEX 6
+	.loc ParimutuelBetTON.sol, 131
+	PUSHINT 0
+	PUSHCONT {
+		PUSH2 S0, S3
+		FIRST
+		LESS
+	}
+	PUSHCONT {
+		.loc ParimutuelBetTON.sol, 132
+		PUSH2 S0, S1
+		INDEX 3
+		PUSHPOW2 8
+		DICTUGET
+		ZEROSWAPIFNOT
+		PUSHCONT {
+			PLDI 1
+		}
+		IF
+		THROWIF 111
+		.loc ParimutuelBetTON.sol, 133
+		PUSH2 S1, S1
+		INDEX 3
+		PUXC S2, S-1
+		NEWC
+		STONE
+		ROTREV
+		PUSHPOW2 8
+		DICTUSETB
+		SETINDEX 3
+		.loc ParimutuelBetTON.sol, 134
+		DUP
+		INDEX 4
+		PUSH2 S2, S5
+		SECOND
+		PUSHINT 32
+		DICTUGETREF
+		THROWIFNOT 50
+		SWAP
+		UNPAIR
+		OVER
+		INC
+		ROLLREV 3
+		PUSHINT 32
+		DICTUSETREF
+		PAIR
+		SETINDEX 4
+		POP S2
+		.loc ParimutuelBetTON.sol, 131
+		INC
+		.loc ParimutuelBetTON.sol, 0
+	}
+	WHILE
+	DROP2
+	.loc ParimutuelBetTON.sol, 137
+	GETGLOB 11
+	GETGLOB 13
+	NEWC
+	STONE
+	ROTREV
+	PUSHPOW2 8
+	DICTUSETB
+	SETGLOB 13
+	.loc ParimutuelBetTON.sol, 139
+	REVERSE 4, 0
+	GETGLOB 11
+	PUSHSLICE xc000000000000000000000000027fbf064
+	NEWC
+	STSLICE
+	STU 256
+	STREF
+	STREF
+	SWAP
+	UNPAIR
+	XCHG S2
+	STU 32
+	STDICT
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 146
+	GETGLOB 11
+	INC
+	SETGLOB 11
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment createPrediction, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 108
+	LDREF
+	LDREF
+	LDU 32
+	LDDICT
+	ROTREV
+	PAIR
+	SWAP
+	LDU 256
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline createPrediction_c92eb3b9_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment endPrediction_6cca31af_internal, {
+	.loc ParimutuelBetTON.sol, 69
+	GETGLOB 9
+	GETGLOB 14
+	PUSHINT 267
+	DICTGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIFNOT 102
+	.loc ParimutuelBetTON.sol, 70
+	OVER
+	.loc ParimutuelBetTON.sol, 91
+	GETGLOB 13
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIFNOT 106
+	.loc ParimutuelBetTON.sol, 92
+	NOW
+	PUSH S2
+	GETGLOB 12
+	PUSHPOW2 8
+	.loc ParimutuelBetTON.sol, 101
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	INDEX 5
+	GREATER
+	THROWIFNOT 108
+	.loc ParimutuelBetTON.sol, 189
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 191
+	OVER
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	.loc ParimutuelBetTON.sol, 192
+	DUP
+	INDEX 6
+	THROWIFNOT 115
+	.loc ParimutuelBetTON.sol, 193
+	DUP2
+	INDEX 3
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIFNOT 116
+	.loc ParimutuelBetTON.sol, 195
+	FALSE
+	SETINDEX 6
+	.loc ParimutuelBetTON.sol, 196
+	OVER
+	SETINDEX 7
+	.loc ParimutuelBetTON.sol, 198
+	DROP
+	PUSH2 S0, S1
+	PUSHSLICE xc000000000000000000000000009a238f2
+	NEWC
+	STSLICE
+	STU 256
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 200
+	CALLREF {
+		.inline _calculatePayouts_209fb8df_internal
+	}
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment endPrediction, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 180
+	OVER
+	PUSHCONT {
+		LDU 256
+		LDREF
+		ENDS
+		CTOS
+	}
+	PUSHCONT {
+		LDU 256
+	}
+	IFELSE
+	LDU 256
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline endPrediction_6cca31af_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment getOptions_8915b3fb_internal, {
+	.loc ParimutuelBetTON.sol, 282
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	INDEX 4
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment upd_only_time_in_c4, {
+	PUSHROOT
+	CTOS
+	LDU 256
+	LDU 64
+	NIP
+	GETGLOB 3
+	ROT
+	NEWC
+	STU 256
+	STU 64
+	STSLICE
+	ENDC
+	POPROOT
+}
+
+.fragment getOptions, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 279
+	LDU 256
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline getOptions_8915b3fb_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 2238419137
+		STUR 130
+		SWAP
+		UNPAIR
+		XCHG S2
+		STU 32
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment owner, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 10
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000df0bcfde
+		NEWC
+		STSLICE
+		STSLICE
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment pause_8456cb59_internal, {
+	.loc ParimutuelBetTON.sol, 64
+	GETGLOB 9
+	GETGLOB 10
+	SDEQ
+	THROWIFNOT 101
+	.loc ParimutuelBetTON.sol, 74
+	GETGLOB 15
+	THROWIF 103
+	.loc ParimutuelBetTON.sol, 268
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 269
+	TRUE
+	SETGLOB 15
+	.loc ParimutuelBetTON.sol, 270
+	GETGLOB 9
+	PUSHSLICE xc00000000000000000000000007434217b
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment pause, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 267
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline pause_8456cb59_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment placeBet_4afe62b5_internal, {
+	.loc ParimutuelBetTON.sol, 84
+	GETGLOB 16
+	THROWIF 105
+	.loc ParimutuelBetTON.sol, 85
+	TRUE
+	SETGLOB 16
+	.loc ParimutuelBetTON.sol, 74
+	GETGLOB 15
+	THROWIF 103
+	.loc ParimutuelBetTON.sol, 75
+	OVER
+	.loc ParimutuelBetTON.sol, 91
+	GETGLOB 13
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIFNOT 106
+	.loc ParimutuelBetTON.sol, 92
+	OVER
+	.loc ParimutuelBetTON.sol, 96
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	INDEX 6
+	THROWIFNOT 107
+	.loc ParimutuelBetTON.sol, 159
+	DEPTH
+	ADDCONST -2
+	PICK
+	GTINT 0
+	THROWIFNOT 112
+	.loc ParimutuelBetTON.sol, 160
+	NOW
+	PUSH S2
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	INDEX 5
+	LEQ
+	THROWIFNOT 113
+	.loc ParimutuelBetTON.sol, 165
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 167
+	OVER
+	GETGLOB 12
+	PUSHPOW2 8
+	DICTUGETREF
+	PUSHCONT {
+		CTOS
+		CALLREF {
+			LDU 256
+			LDREF
+			LDREF
+			LDDICT
+			LDREF
+			ENDS
+			CTOS
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			LDU 256
+			LDI 1
+			LDU 256
+			LDDICT
+			LDDICT
+			LDU 32
+			LDDICT
+			ROTREV
+			PAIR
+			SWAP
+			ENDS
+			TUPLE 11
+		}
+	}
+	PUSHCONT {
+		PUSHINT 0
+		PUSHREF {
+		}
+		DUP
+		NULL
+		PUSHINT 0
+		NULL
+		PAIR
+		PUSHINT 0
+		BLKPUSH 2, 0
+		NULL
+		DUP
+		PUSHINT 0
+		NULL
+		PAIR
+		TUPLE 11
+	}
+	IFELSE
+	.loc ParimutuelBetTON.sol, 168
+	DUP2
+	INDEX 3
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDI 1
+	}
+	IF
+	THROWIFNOT 114
+	.loc ParimutuelBetTON.sol, 170
+	OVER
+	GETGLOB 9
+	PUSH S2
+	INDEX 9
+	PUSHINT 267
+	DICTGET
+	NULLSWAPIFNOT
+	PUSHCONT {
+		PLDDICT
+	}
+	IF
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDU 128
+	}
+	IF
+	PUSHCONT {
+		.loc ParimutuelBetTON.sol, 171
+		DUP
+		INDEX 10
+		GETGLOB 9
+		SWAP
+		UNPAIR
+		OVER
+		INC
+		ROLLREV 3
+		PUSHINT 32
+		DICTUSET
+		PAIR
+		SETINDEX 10
+		.loc ParimutuelBetTON.sol, 0
+	}
+	IFNOT
+	.loc ParimutuelBetTON.sol, 174
+	DUP
+	INDEX 9
+	GETGLOB 9
+	XCPU2 S1, S1, S0
+	PUSHINT 267
+	DICTGET
+	NULLSWAPIFNOT
+	PUSHCONT {
+		PLDDICT
+	}
+	IF
+	PUXC S4, S-1
+	DUP2
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDU 128
+	}
+	IF
+	DEPTH
+	ADDCONST -2
+	PICK
+	ADD
+	UFITS 128
+	NEWC
+	STU 128
+	ROTREV
+	PUSHPOW2 8
+	DICTUSETB
+	NEWC
+	STDICT
+	ROTREV
+	PUSHINT 267
+	DICTSETB
+	SETINDEX 9
+	.loc ParimutuelBetTON.sol, 175
+	DUP
+	INDEX 8
+	PUXC S2, S-1
+	DUP2
+	PUSHPOW2 8
+	DICTUGET
+	ZEROSWAPIFNOT
+	PUSHCONT {
+		PLDU 128
+	}
+	IF
+	DEPTH
+	ADDCONST -2
+	PICK
+	ADD
+	UFITS 128
+	NEWC
+	STU 128
+	ROTREV
+	PUSHPOW2 8
+	DICTUSETB
+	SETINDEX 8
+	.loc ParimutuelBetTON.sol, 177
+	DROP
+	DEPTH
+	ADDCONST -2
+	PICK
+	XCHG S2
+	GETGLOB 9
+	PUSHSLICE xc0000000000000000000000001
+	NEWC
+	STSLICE
+	ROLLREV 4
+	NEWC
+	STSLICECONST x4653b1a2
+	STSLICE
+	STU 256
+	ROTREV
+	NEWC
+	STU 256
+	STU 128
+	STBREFR
+	STBREFR
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 87
+	FALSE
+	SETGLOB 16
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment placeBet, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 149
+	OVER
+	PUSHCONT {
+		LDU 256
+		LDREF
+		ENDS
+		CTOS
+	}
+	PUSHCONT {
+		LDU 256
+	}
+	IFELSE
+	LDU 256
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline placeBet_4afe62b5_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment predictionCounter, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 11
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000e29ec74e
+		NEWC
+		STSLICE
+		STU 256
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment predictionExistsMap, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 13
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000dab3d576
+		NEWC
+		STSLICE
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment predictions, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 12
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc00000000000000000000000009dc595c7
+		NEWC
+		STSLICE
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment removeAdmin_1785f53c_internal, {
+	.loc ParimutuelBetTON.sol, 64
+	GETGLOB 9
+	GETGLOB 10
+	SDEQ
+	THROWIFNOT 101
+	.loc ParimutuelBetTON.sol, 258
+	DUP
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	SDEQ
+	THROWIF 123
+	.loc ParimutuelBetTON.sol, 259
+	DUP
+	GETGLOB 10
+	SDEQ
+	THROWIF 124
+	.loc ParimutuelBetTON.sol, 261
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 263
+	DUP
+	GETGLOB 14
+	NEWC
+	STZERO
+	ROTREV
+	PUSHINT 267
+	DICTSETB
+	SETGLOB 14
+	.loc ParimutuelBetTON.sol, 264
+	PUSHSLICE xc00000000000000000000000002ac80f75
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment removeAdmin, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 257
+	OVER
+	PUSHCONT {
+		LDREF
+		ENDS
+		CTOS
+	}
+	IF
+	LDMSGADDR
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline removeAdmin_1785f53c_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment unpause_3f4ba83a_internal, {
+	.loc ParimutuelBetTON.sol, 64
+	GETGLOB 9
+	GETGLOB 10
+	SDEQ
+	THROWIFNOT 101
+	.loc ParimutuelBetTON.sol, 79
+	GETGLOB 15
+	THROWIFNOT 104
+	.loc ParimutuelBetTON.sol, 274
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 275
+	FALSE
+	SETGLOB 15
+	.loc ParimutuelBetTON.sol, 276
+	GETGLOB 9
+	PUSHSLICE xc0000000000000000000000000400878cb
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment unpause, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 273
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline unpause_3f4ba83a_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment withdrawBalance_5fd8c710_internal, {
+	.loc ParimutuelBetTON.sol, 64
+	GETGLOB 9
+	GETGLOB 10
+	SDEQ
+	THROWIFNOT 101
+	.loc ParimutuelBetTON.sol, 286
+	ACCEPT
+	.loc ParimutuelBetTON.sol, 287
+	GETPARAM 7
+	FIRST
+	.loc ParimutuelBetTON.sol, 288
+	DUP
+	GTINT 0
+	THROWIFNOT 125
+	.loc ParimutuelBetTON.sol, 289
+	GETGLOB 9
+	SWAP
+	CALLREF {
+		.inline _safeTransfer_3ea1cd0c_internal
+	}
+	.loc ParimutuelBetTON.sol, 0
+}
+
+.fragment withdrawBalance, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc ParimutuelBetTON.sol, 285
+	ENDS
+	.loc ParimutuelBetTON.sol, 0
+	CALLREF {
+		.inline withdrawBalance_5fd8c710_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment public_function_selector, {
+	DUP
+	PUSHINT 499488199
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 200044400
+		LEQ
+		IFJMPREF {
+			DUP
+			PUSHINT 90935489
+			EQUAL
+			IFJMPREF {
+				.inline getOptions
+			}
+			DUP
+			PUSHINT 106197050
+			EQUAL
+			IFJMPREF {
+				.inline admins
+			}
+			DUP
+			PUSHINT 200044400
+			EQUAL
+			IFJMPREF {
+				.inline placeBet
+			}
+		}
+		DUP
+		PUSHINT 309195833
+		LEQ
+		IFJMPREF {
+			DUP
+			PUSHINT 215898360
+			EQUAL
+			IFJMPREF {
+				.inline createPrediction
+			}
+			DUP
+			PUSHINT 309195833
+			EQUAL
+			IFJMPREF {
+				.inline addAdmin
+			}
+		}
+		DUP
+		PUSHINT 318914298
+		EQUAL
+		IFJMPREF {
+			.inline claimPayout
+		}
+		DUP
+		PUSHINT 499488199
+		EQUAL
+		IFJMPREF {
+			.inline predictions
+		}
+	}
+	DUP
+	PUSHINT 1594609630
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 893486542
+		EQUAL
+		IFJMPREF {
+			.inline removeAdmin
+		}
+		DUP
+		PUSHINT 1105452580
+		EQUAL
+		IFJMPREF {
+			.inline pause
+		}
+		DUP
+		PUSHINT 1521735030
+		EQUAL
+		IFJMPREF {
+			.inline predictionExistsMap
+		}
+		DUP
+		PUSHINT 1594609630
+		EQUAL
+		IFJMPREF {
+			.inline owner
+		}
+	}
+	DUP
+	PUSHINT 1905169317
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 1654572878
+		EQUAL
+		IFJMPREF {
+			.inline predictionCounter
+		}
+		DUP
+		PUSHINT 1756716863
+		EQUAL
+		IFJMPREF {
+			.inline constructor
+		}
+		DUP
+		PUSHINT 1905169317
+		EQUAL
+		IFJMPREF {
+			.inline endPrediction
+		}
+	}
+	DUP
+	PUSHINT 1943155344
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 1916555405
+		EQUAL
+		IFJMPREF {
+			.inline unpause
+		}
+		DUP
+		PUSHINT 1943155344
+		EQUAL
+		IFJMPREF {
+			.inline withdrawBalance
+		}
+	}
+}
+
+.fragment main_external, {
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	SETGLOB 9
+	OVER
+	CALLREF {
+		.inline c4_to_c7
+	}
+	LDU 1 ; haveSign msgSlice
+	SWAP
+	PUSHCONT {
+		PUSHPOW2 9
+		LDSLICEX
+		DUP
+		MYADDR
+		NEWC
+		STSLICE
+		STSLICE
+		ENDC
+		HASHCU
+		ROT
+		GETGLOB 2
+		CHKSIGNU
+		THROWIFNOT 40
+	}
+	IF
+	LDU 64 ; timestamp msgSlice
+	SWAP
+	.inline __replayProtection
+	LDU 32 ; funcId body
+	SWAP
+	CALLREF {
+		.inline public_function_selector
+	}
+	THROW 60
+}
+
+.fragment main_internal, {
+	PUSHROOT
+	CTOS
+	PUSHINT 320
+	SDSKIPFIRST
+	PLDI 1
+	SETGLOB 6
+	PUSH S2
+	CTOS
+	LDU 4 ; bounced tail
+	LDMSGADDR ; bounced src tail
+	DROP
+	SETGLOB 9
+	MODPOW2 1
+	IFRET
+	OVER
+	SEMPTY ; isEmpty
+	IFJMPREF {
+		GETGLOB 6
+		THROWIFNOT 76
+	}
+	OVER
+	LDUQ 32  ; [funcId] body' ok
+	THROWIFNOT 60
+	OVER
+	IFNOTJMPREF {
+		GETGLOB 6
+		THROWIFNOT 76
+	}
+	SWAP
+	CALLREF {
+		.inline public_function_selector
+	}
+	THROW 60
+}
+
+.fragment default_data_cell, {
+	PUSHINT 0
+	DUP
+	NULL
+	BLKPUSH 2, 0
+	PUSHINT 0
+	NEWC
+	PUSHINT 323
+	STZEROES
+	ROLLREV 6
+	NEWC
+	STU 256
+	STDICT
+	STDICT
+	STDICT
+	STI 1
+	STI 1
+	STBREFR
+	ENDC
+}
+
+.fragment onTickTock, {
+}
+
+; The code below forms a value of the StateInit type.
+.blob x4_ ; split_depth = nothing
+.blob x4_ ; special = nothing
+.blob xc_ ; code = just
+.cell { ; code cell
+	PUSHREFCONT {
+		DICTPUSHCONST 32
+		DICTUGETJMPZ
+		THROW 78
+		.code-dict-cell 32, {
+		}
+		.cell { ; version
+			.blob x736f6c20302e37362e30 ; sol 0.76.0
+		}
+	}
+	POPCTR c3
+	DUP
+	IFNOTJMPREF {
+		.inline main_internal
+	}
+	DUP
+	EQINT -1
+	IFJMPREF {
+		.inline main_external
+	}
+	DUP
+	EQINT -2
+	IFJMPREF {
+		.inline onTickTock
+	}
+	THROW 11
+}
+.blob xc_ ; data = just
+.cell { 
+	.inline-computed-cell default_data_cell, 0
+}
+.blob x4_ ; library = hme_empty

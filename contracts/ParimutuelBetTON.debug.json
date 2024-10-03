@@ -1,0 +1,5563 @@
+{
+  "05ae9f63f802baf3f8fa0b445625be240403e21ae92620c01720ad3e50f2efe9": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 776
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 777
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 778
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 779
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 780
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 781
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 108
+    },
+    "192": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 795
+    },
+    "208": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 798
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 801
+    }
+  },
+  "085d87511d977b192578131a6d9c35e5e586c58ccf01bf228d2e354f7704c0c5": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1087
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1088
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1089
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1090
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1091
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1092
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 279
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 279
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1099
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1102
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1103
+    },
+    "152": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1104
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1105
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1106
+    },
+    "184": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1107
+    },
+    "200": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1108
+    },
+    "208": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1109
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1110
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1111
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1112
+    },
+    "256": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1113
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1114
+    },
+    "328": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1115
+    },
+    "336": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1116
+    },
+    "352": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1117
+    },
+    "360": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1118
+    },
+    "376": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1119
+    },
+    "392": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1120
+    },
+    "400": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1121
+    },
+    "408": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1122
+    },
+    "424": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1124
+    },
+    "432": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1125
+    },
+    "440": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1127
+    },
+    "448": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1128
+    },
+    "464": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1131
+    }
+  },
+  "0c25d6084822e3aae4e701fe16d4e808ab25f9b90a010088ac172da191ee1c6f": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1797
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1798
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1799
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1800
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1820
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1821
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1822
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1823
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1837
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1838
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1839
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1840
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1843
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1844
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1845
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1846
+    }
+  },
+  "0fb95f6e0e8494ced20fddc5b6e96462ede854388901cea9d28984620da3ff14": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1569
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1570
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1571
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1574
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1575
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1576
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1577
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1578
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1579
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1580
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1581
+    },
+    "272": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1582
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1583
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1585
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1586
+    }
+  },
+  "15c1b8458a42008777492a999179636069e79652dd79aa6dac86ede6ffd58935": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "24": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 165
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "424": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "456": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "472": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "504": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 167
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "520": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "536": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "552": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "568": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "584": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "592": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "616": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 168
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "656": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "672": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "680": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "696": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "720": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "736": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "752": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "760": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "776": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "784": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "800": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "816": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "832": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "840": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "864": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    }
+  },
+  "1baa2b21a6b0668c8663ce44644790d7f21b970a40a8f250c7d8974f0055dee6": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2024
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2034
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2035
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2036
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2039
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2040
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2041
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2044
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2045
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2046
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2049
+    }
+  },
+  "1c62f4ae8e0e09bf51d3cf5fe7040b8a1e6aa9b973bc38d0ad9a29049ceb3e6a": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1793
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1794
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1795
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1796
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1850
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1851
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1852
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1853
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1879
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1880
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1881
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1882
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1902
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1903
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1904
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1905
+    }
+  },
+  "250fe10db2ea81d9e83bec4e9b341c76d97ab9b369b0ba308879f486b15e08d6": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 79
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 79
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 274
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 275
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 275
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 276
+    }
+  },
+  "2a698b42965ba9fcdc043559cbe089629b25ce53a53fe9e8b397aab125f37870": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1801
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1802
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1803
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1804
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1807
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1808
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1809
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1810
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1813
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1814
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1815
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1816
+    }
+  },
+  "33ddff8479adc149bd591a0bb5b0260675f7b30a2bd8e1a1f13d34f57573cfe8": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1727
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1728
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1729
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1730
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1731
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1732
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 273
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1738
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1741
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1744
+    }
+  },
+  "3a6ddabeb5ea44e33078194e621589f32ae42089a304a43b83e774b3e59d2b53": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2025
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2026
+    },
+    "40": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2027
+    }
+  },
+  "3b7445b5ab1ed2137cb83b2aafd4f1a46dd4ae452f95e1f832af0913e0d083cf": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 342
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 343
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 344
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 347
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 348
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 349
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 350
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 351
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 352
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 353
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 354
+    },
+    "272": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 355
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 356
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 358
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 359
+    }
+  },
+  "3c19b9540fff7e945662b68ef1927e9b27865090f68fd291d4016255dbada789": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 268
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 269
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 269
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 270
+    }
+  },
+  "3e7abfaaa438f49c1aca575f21e27860a20111d7aefb68ab8f3fda30aa544e65": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1182
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1183
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1184
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1185
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1186
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1187
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 267
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1193
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1196
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1199
+    }
+  },
+  "46e26db8638b586d2d8c0d28fcc65f19ce69001c1fe7fbb75de3244577e257ba": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1672
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1673
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1674
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1675
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1676
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1677
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 257
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1691
+    },
+    "176": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1694
+    },
+    "192": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1697
+    }
+  },
+  "470a80bc2ecafcd14aea2c1ddcfc1995bccf40ed1a395044eee1ae8daae3435f": {},
+  "4b52a57f5eb5efd9bcae8123d1c747099d8e1d7cce6281b3f7314f89c1217e7f": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 146
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 146
+    },
+    "24": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 146
+    }
+  },
+  "50e12a23ea5279a4cee0f9e7db362fc03c499c8dde447dc0e132a795732565d3": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 282
+    }
+  },
+  "57e7451c69c8613737f50976d4ee22efbd15548f3e01f6fc611331c31f022f99": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 84
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 84
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 85
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 85
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 75
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 92
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "424": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "456": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "472": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "504": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "528": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 96
+    },
+    "552": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 159
+    },
+    "560": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 159
+    },
+    "576": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 159
+    },
+    "584": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 159
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 159
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "664": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "680": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "696": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "712": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    },
+    "720": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 160
+    }
+  },
+  "5d74ac67c699655dc93d45ade6aa519e914074919c8593a8ce95fae5d7dc070d": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1906
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1907
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1908
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1909
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1912
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1913
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1914
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1915
+    }
+  },
+  "5fe2ad7ce68e4e422f934d384fd60a4e0b1f6b056ccc9c5757b6be90d818653b": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 981
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 982
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 983
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 984
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 985
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 986
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 180
+    },
+    "200": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1004
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1007
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1010
+    }
+  },
+  "616032f3c0a30130cd4f739a36b2eb07f9fbee64e147f424af10491a15124194": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 87
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 87
+    }
+  },
+  "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1923
+    }
+  },
+  "63b8c31d13d72e481fabd20b67bf4387917fafeb803589cfb8844ecdad925d0a": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "8": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "24": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 207
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 208
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 210
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 210
+    },
+    "408": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 210
+    },
+    "432": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "496": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    }
+  },
+  "6c29898c571c4481db63160a82070db421ac7679db5f353edab90a5227d3c5d5": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 258
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 258
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 258
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 258
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 259
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 259
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 259
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 259
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 261
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 263
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    },
+    "496": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    },
+    "504": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    },
+    "520": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 264
+    }
+  },
+  "6e517cf332dc637090a372ce33b6980822b7a13ac67cd7bda24b2004a16529df": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 285
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 286
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 287
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 288
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 289
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 290
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 291
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 292
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 293
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 294
+    },
+    "152": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 295
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 296
+    },
+    "184": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 297
+    },
+    "200": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 298
+    },
+    "208": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 299
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 300
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 301
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 302
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 303
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 304
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 305
+    },
+    "312": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 306
+    },
+    "328": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 307
+    },
+    "336": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 308
+    },
+    "344": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 309
+    }
+  },
+  "71715f2e50c432aabb6de7b2b92ea7b95037b813f593e0ee91a2b213eadfaf70": {},
+  "760dc368b3b132288f3f3bfcfd3010f244e2163ddc185546f70c2cb60d034c59": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1854
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1855
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1856
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1857
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1860
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1861
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1862
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1863
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1866
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1867
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1868
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1869
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1872
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1873
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1874
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1875
+    }
+  },
+  "7c59f7b805e90197708cda8cbee7b1c9042735d43e25b83083457e15c3726794": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2020
+    },
+    "1": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2021
+    },
+    "2": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2022
+    },
+    "3": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2051
+    },
+    "4": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2055
+    }
+  },
+  "8a28d123b71084e39c5769bb3458ed83d3922d32d75456398a211fa7ca619424": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 248
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 248
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 248
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 248
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 249
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 251
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 253
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    },
+    "560": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    },
+    "568": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    },
+    "576": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    },
+    "584": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    },
+    "592": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 254
+    }
+  },
+  "925fb2b8369fa28e8098ad4f1d85486ca216302c3ed169a17fc51589b9bf8013": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 293
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 294
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 295
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 295
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 295
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 295
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 296
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 296
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 296
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 297
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 298
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 298
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 298
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 298
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "432": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 300
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 301
+    },
+    "472": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 301
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 301
+    },
+    "488": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 204
+    },
+    "496": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 205
+    }
+  },
+  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+  "99cf711fde4c3b13e17ba79711d274a4060de289ba87e8646d5e355eddb504cd": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 535
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 536
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 537
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 538
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 539
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 540
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 225
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 225
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 547
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 550
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 553
+    }
+  },
+  "9a387697f393e90cd427e1102ab37f0b3216fdb6a8126d433e49c6980b412b3f": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 70
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 91
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 92
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 92
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 92
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 92
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "424": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "432": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "456": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "504": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "520": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "528": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "536": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "552": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "568": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "576": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "592": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 189
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "664": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "680": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "696": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "712": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "720": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    }
+  },
+  "9cbdb39d2b645fa77d724c6b218a616ac72aef56870ca539fdcfadbe4f0836c7": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1611
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1612
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1613
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1616
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1617
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1618
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1619
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1620
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1621
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1622
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1623
+    },
+    "272": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1624
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1625
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1627
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1628
+    }
+  },
+  "a27e8aaa4e3637a466e8af68071255e72cc99f499da18a00b4c51374b0153c62": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1135
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1136
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1137
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1140
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1141
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1142
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1143
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1144
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1145
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1146
+    },
+    "256": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1147
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1148
+    },
+    "272": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1149
+    },
+    "288": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1151
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1152
+    }
+  },
+  "a49107943d9a5fc81af3d305934cb7f55c3c6a230420957d29238230dda5828d": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1883
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1884
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1885
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1886
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1889
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1890
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1891
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1892
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1895
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1896
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1897
+    },
+    "224": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1898
+    }
+  },
+  "a4ef1245c6e37b9b0fbd9cba4663b5065f6a1accb3cb3ecb9f95e9ea2c62aaa9": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 132
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 133
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "424": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "432": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "496": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 134
+    },
+    "520": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    },
+    "528": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 739
+    },
+    "536": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 740
+    },
+    "544": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "560": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "576": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "584": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "608": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 137
+    },
+    "656": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "672": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "688": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "848": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "856": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "864": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "880": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "888": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "896": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "904": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "920": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "928": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "944": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "960": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "976": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "984": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    },
+    "992": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 139
+    }
+  },
+  "a83fc100a16dc68c9ef55a148ea8d9e7bff5606a2255810d972d09e6cd7a80b2": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1590
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1591
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1592
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1595
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1596
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1597
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1598
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1599
+    },
+    "240": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1600
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1601
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1602
+    },
+    "272": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1603
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1604
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1606
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1607
+    }
+  },
+  "ab2950f328b5c33d7eba8ddfbdd9f332089485e03c2e1a4c37b1cf2332c1558e": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 64
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 286
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 287
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 287
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 288
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 288
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 288
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 289
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 289
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 289
+    }
+  },
+  "b343c370f49cc2949384d1fb58da69441764bc09f2812e26cc9ec4213b0fa2d0": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 256
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 257
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 258
+    },
+    "40": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 259
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 260
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 261
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 262
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 263
+    },
+    "104": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 264
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 265
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 266
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 267
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 268
+    },
+    "176": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 269
+    },
+    "192": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 270
+    },
+    "208": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 271
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 272
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 273
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 274
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 275
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 276
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 277
+    },
+    "312": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 278
+    },
+    "328": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 279
+    },
+    "344": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 280
+    },
+    "360": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 281
+    }
+  },
+  "b90b5ae042766f1a819eea169e9bee80f5371b6af2b5d307b06091fbee044e94": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 170
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "24": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 171
+    },
+    "176": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1444
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "312": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "408": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "456": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "472": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "504": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "528": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "536": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "552": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "568": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "576": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "592": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 174
+    },
+    "656": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "664": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "680": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "696": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "704": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "720": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "736": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "752": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "760": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "784": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "792": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "800": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "816": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "824": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "832": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "848": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "856": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "872": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "880": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "896": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "912": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 175
+    },
+    "928": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "936": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "944": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "960": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "968": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    },
+    "976": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 177
+    }
+  },
+  "bcc8f6f882325f04ed0c033763e703fd5e0c3aee2bd21510e048abb8f02bbe7c": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1922
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1925
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1926
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1927
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1930
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1931
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1932
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1933
+    },
+    "104": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1934
+    },
+    "120": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1935
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1936
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1937
+    },
+    "152": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1938
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1939
+    },
+    "168": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1940
+    },
+    "176": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1941
+    },
+    "192": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1942
+    },
+    "200": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1943
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1944
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1945
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1947
+    },
+    "256": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1948
+    },
+    "272": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1949
+    },
+    "280": {
+      "filename": "stdlib.sol",
+      "line": 22
+    },
+    "296": {
+      "filename": "stdlib.sol",
+      "line": 22
+    },
+    "304": {
+      "filename": "stdlib.sol",
+      "line": 22
+    },
+    "312": {
+      "filename": "stdlib.sol",
+      "line": 22
+    },
+    "328": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "336": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "352": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "376": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "384": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "424": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "432": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "440": {
+      "filename": "stdlib.sol",
+      "line": 23
+    },
+    "456": {
+      "filename": "stdlib.sol",
+      "line": 24
+    },
+    "472": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1951
+    },
+    "488": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1952
+    },
+    "496": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1953
+    },
+    "512": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1956
+    }
+  },
+  "be289bc86e7ce0301576e87cfae887c5b1c573616c5c6ce3edc58c62dec43fd9": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 69
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 114
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 114
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 114
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 115
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 120
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 122
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 122
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "408": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "424": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "456": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "472": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "496": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "520": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "528": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "536": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "544": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "552": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "560": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "576": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "584": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "608": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "616": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "632": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "664": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 124
+    },
+    "672": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 125
+    },
+    "688": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 125
+    },
+    "704": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 126
+    },
+    "712": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 126
+    },
+    "728": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 127
+    },
+    "736": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 127
+    },
+    "752": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 128
+    },
+    "760": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 128
+    },
+    "776": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 129
+    },
+    "784": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 129
+    },
+    "800": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    },
+    "808": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    },
+    "816": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    },
+    "832": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    },
+    "848": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 131
+    }
+  },
+  "c24fdfab3425b19ed7a38c547f484adad51578e30eaf596d8b8a5bf8d9693900": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 2031
+    }
+  },
+  "c3630ce4c3ae969ed5a4eefa6f681f04bfbf7db8659402085b7e1c32b80fd850": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1960
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1961
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1962
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1963
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1964
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1965
+    },
+    "104": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1966
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1967
+    },
+    "120": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1968
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1969
+    },
+    "152": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1970
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1971
+    },
+    "176": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1972
+    },
+    "200": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1973
+    },
+    "208": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1974
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1975
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1976
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1980
+    },
+    "256": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1981
+    },
+    "280": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1982
+    },
+    "296": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1983
+    },
+    "304": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1984
+    },
+    "320": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1988
+    },
+    "328": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1989
+    },
+    "344": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1992
+    }
+  },
+  "cc4ae776ddbecf38e862d280ee5cc713665b608a65806516e31a0327b0ae3215": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "24": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 191
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 192
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 192
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 192
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 193
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 195
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 195
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 196
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 196
+    },
+    "408": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "432": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "592": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "608": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "656": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 198
+    },
+    "672": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 200
+    }
+  },
+  "dbcad4ab95c4f082819120820b7abc1282a92ef2fa94f5ac06c7ca7999483129": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1824
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1825
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1826
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1827
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1830
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1831
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1832
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1833
+    }
+  },
+  "de64fe7edbe6011f63cf76217befa55e6a7956db493c572d51f62e264a5a36c2": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 84
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 84
+    },
+    "40": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 85
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 85
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 74
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 228
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "304": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "344": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "384": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 230
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 231
+    },
+    "400": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 231
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 231
+    },
+    "440": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "464": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "480": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "504": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "528": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "544": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "560": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "568": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "584": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "592": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "608": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "672": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 233
+    },
+    "680": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 234
+    },
+    "688": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 234
+    },
+    "704": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 234
+    },
+    "728": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "736": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "752": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "760": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "776": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "792": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "808": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "824": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "832": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "856": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 236
+    },
+    "864": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 237
+    },
+    "872": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 237
+    },
+    "888": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 237
+    },
+    "904": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 237
+    },
+    "912": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 237
+    },
+    "928": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 237
+    },
+    "944": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 238
+    },
+    "952": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 238
+    },
+    "968": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 238
+    },
+    "992": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    }
+  },
+  "e08cf6e38163268687082a8967b7628ca0a6b3f9ac6e5948534dcfb1f5a67630": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "224": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "264": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "360": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 240
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "520": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "528": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "544": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "552": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "600": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "608": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "624": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "656": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "664": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 242
+    },
+    "680": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 244
+    },
+    "696": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 244
+    },
+    "704": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 244
+    },
+    "720": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 87
+    },
+    "728": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 87
+    }
+  },
+  "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1071
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1072
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1073
+    },
+    "40": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1074
+    },
+    "56": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1075
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1076
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1077
+    },
+    "88": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1078
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1079
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1080
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1081
+    },
+    "136": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1082
+    },
+    "144": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1083
+    }
+  },
+  "e87b4855b3fa3558c43aada0ab21cb97fb8f622ea9876d5b65ec755575b49a9a": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 313
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 314
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 315
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 316
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 317
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 318
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 247
+    },
+    "160": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 332
+    },
+    "176": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 335
+    },
+    "192": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 338
+    }
+  },
+  "ef982e8da0220ebba017fd490319842ccc38a144c1eeea06b9004ad8a85f850a": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 213
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 213
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 213
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 213
+    },
+    "80": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 213
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 213
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "208": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "240": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "296": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "320": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 214
+    },
+    "328": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 216
+    },
+    "336": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 216
+    },
+    "352": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 216
+    },
+    "368": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 217
+    },
+    "376": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 217
+    },
+    "392": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 217
+    },
+    "408": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 217
+    },
+    "416": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 217
+    },
+    "432": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 217
+    },
+    "448": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 218
+    },
+    "456": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 218
+    },
+    "472": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 218
+    },
+    "488": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "512": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "632": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "640": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "648": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "664": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "672": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "720": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "728": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "744": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "760": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "768": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "776": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "784": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 219
+    },
+    "800": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 134
+    },
+    "808": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 136
+    },
+    "816": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 138
+    },
+    "824": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 140
+    },
+    "832": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 212
+    },
+    "840": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 145
+    },
+    "848": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 146
+    }
+  },
+  "f006d4672bbdc85bada55d3cbe0bfdfbc1da8510922a15958656b54772c6a95d": {
+    "0": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "16": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "24": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "32": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "48": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "56": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "64": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "72": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "112": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "200": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "248": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "256": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "272": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "280": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    },
+    "288": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 101
+    }
+  },
+  "f0a1e33adad34ec2b7e0cf19476714b354873c7fbeef0a9c8d0721af952b6dde": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1772
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1773
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1774
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1775
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1776
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1777
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 285
+    },
+    "96": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1783
+    },
+    "112": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1786
+    },
+    "128": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1789
+    }
+  },
+  "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1977
+    },
+    "16": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1978
+    }
+  },
+  "f4f642764ecdeca5af4980d99c68af70358731a5b50f1d3e7a80c85d9ea18228": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 557
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 558
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 559
+    },
+    "32": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 560
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 563
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 564
+    },
+    "80": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 565
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 58
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 59
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 59
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 59
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "160": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "184": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "216": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "232": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 60
+    },
+    "248": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 581
+    },
+    "264": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 584
+    }
+  },
+  "fc7c56869d6f5ed3f55d04382e50dc99cd65df4de1a6fb3082a310b475130716": {
+    "0": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1536
+    },
+    "8": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1537
+    },
+    "24": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1538
+    },
+    "48": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1539
+    },
+    "64": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1540
+    },
+    "72": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1541
+    },
+    "88": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "96": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "104": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "120": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "128": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "136": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "144": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "152": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "168": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "176": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "192": {
+      "filename": "ParimutuelBetTON.sol",
+      "line": 149
+    },
+    "200": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1559
+    },
+    "216": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1562
+    },
+    "232": {
+      "filename": "./ParimutuelBetTON.code",
+      "line": 1565
+    }
+  }
+}

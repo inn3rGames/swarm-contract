@@ -1,0 +1,235 @@
+{
+	"ABI version": 2,
+	"version": "2.4",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "createPrediction",
+			"inputs": [
+				{"name":"title","type":"string"},
+				{"name":"description","type":"string"},
+				{"name":"options","type":"string[]"},
+				{"name":"durationInSeconds","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "placeBet",
+			"inputs": [
+				{"name":"predictionId","type":"uint256"},
+				{"name":"optionId","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "endPrediction",
+			"inputs": [
+				{"name":"predictionId","type":"uint256"},
+				{"name":"winnerId","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "claimPayout",
+			"inputs": [
+				{"name":"predictionId","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "addAdmin",
+			"inputs": [
+				{"name":"newAdmin","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "removeAdmin",
+			"inputs": [
+				{"name":"admin","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "pause",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "unpause",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getOptions",
+			"inputs": [
+				{"name":"predictionId","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"value0","type":"string[]"}
+			]
+		},
+		{
+			"name": "withdrawBalance",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "owner",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"owner","type":"address"}
+			]
+		},
+		{
+			"name": "predictionCounter",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"predictionCounter","type":"uint256"}
+			]
+		},
+		{
+			"name": "predictions",
+			"inputs": [
+			],
+			"outputs": [
+				{"components":[{"name":"id","type":"uint256"},{"name":"title","type":"string"},{"name":"description","type":"string"},{"name":"options","type":"map(uint256,bool)"},{"name":"optionList","type":"string[]"},{"name":"endBidTime","type":"uint256"},{"name":"isActive","type":"bool"},{"name":"winner","type":"uint256"},{"name":"totalBets","type":"map(uint256,uint128)"},{"name":"bets","type":"map(address,map(uint256,uint128))"},{"name":"participants","type":"address[]"}],"name":"predictions","type":"map(uint256,tuple)"}
+			]
+		},
+		{
+			"name": "predictionExistsMap",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"predictionExistsMap","type":"map(uint256,bool)"}
+			]
+		},
+		{
+			"name": "admins",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"admins","type":"map(address,bool)"}
+			]
+		}
+	],
+	"events": [
+		{
+			"name": "AdminAdded",
+			"inputs": [
+				{"name":"newAdmin","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "AdminRemoved",
+			"inputs": [
+				{"name":"removedAdmin","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "PredictionCreated",
+			"inputs": [
+				{"name":"id","type":"uint256"},
+				{"name":"title","type":"string"},
+				{"name":"description","type":"string"},
+				{"name":"options","type":"string[]"},
+				{"name":"endBidTime","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "BetPlaced",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"predictionId","type":"uint256"},
+				{"name":"optionId","type":"uint256"},
+				{"name":"amount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "PredictionEnded",
+			"inputs": [
+				{"name":"id","type":"uint256"},
+				{"name":"winnerId","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "PayoutAvailable",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"predictionId","type":"uint256"},
+				{"name":"amount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "PayoutClaimed",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"predictionId","type":"uint256"},
+				{"name":"amount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "Paused",
+			"inputs": [
+				{"name":"account","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "Unpaused",
+			"inputs": [
+				{"name":"account","type":"address"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"init":true,"name":"_pubkey","type":"uint256"},
+		{"init":false,"name":"_timestamp","type":"uint64"},
+		{"init":false,"name":"_constructorFlag","type":"bool"},
+		{"init":false,"name":"owner","type":"address"},
+		{"init":false,"name":"predictionCounter","type":"uint256"},
+		{"components":[{"name":"id","type":"uint256"},{"name":"title","type":"string"},{"name":"description","type":"string"},{"name":"options","type":"map(uint256,bool)"},{"name":"optionList","type":"string[]"},{"name":"endBidTime","type":"uint256"},{"name":"isActive","type":"bool"},{"name":"winner","type":"uint256"},{"name":"totalBets","type":"map(uint256,uint128)"},{"name":"bets","type":"map(address,map(uint256,uint128))"},{"name":"participants","type":"address[]"}],"init":false,"name":"predictions","type":"map(uint256,tuple)"},
+		{"init":false,"name":"predictionExistsMap","type":"map(uint256,bool)"},
+		{"init":false,"name":"admins","type":"map(address,bool)"},
+		{"init":false,"name":"paused","type":"bool"},
+		{"init":false,"name":"locked","type":"bool"}
+	]
+}
