@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 // Update to the latest Solidity version
-pragma solidity ^0.8.27;
+pragma solidity ^0.8.26;
 
 /// @title Parimutuel Betting Contract
 /// @notice This contract allows users to place bets on various predictions with multiple options.
